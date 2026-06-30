@@ -8,7 +8,7 @@ export default function App() {
      
      <div className="App">
       <div className="container">
-       <h1>Weather App</h1>
+      
        <Weather />
       
         <footer>This project was coded by Sarah Staniec and is <a href="https://github.com/staniecs/2026-weather-app" target="_blank">open-sourced on GitHub</a>.</footer>
