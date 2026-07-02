@@ -3,6 +3,8 @@ import axios from "axios";
 import "./Weather.css"
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
+import OvalLoader from "./OvalLoader";
+
 
 export default function Weather(props) {
     
@@ -50,7 +52,13 @@ export default function Weather(props) {
 
     </div>);} else {    
             search();
-            return (<div>The App is loading...</div>)}
+            return (
+                
+                    <OvalLoader />
+                 
+                   
+                                    
+  )}
 
     
 }
